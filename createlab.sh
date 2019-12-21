@@ -12,8 +12,8 @@ read laboratorio
 
 # creacion de variables
 
-ruta=/var/lib/libvirt/images/
-#modificar golden image Minionfedora30
+ruta=/home/gbenselu/vdo/virtualmachines
+
 for i in $(seq 1 $napps)
 do
 
