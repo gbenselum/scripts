@@ -2,6 +2,9 @@
 #!/bin/bash
 
 #libvirt qemu kvm libvirt libguestfs-tools required to run installed on host.
+#sudo/root required to run needs fix!
+
+
 # Variables
 
 # vm location
