@@ -1,19 +1,27 @@
 
 #!/bin/bash
 
-# toma de variables
+#libvirt qemu kvm libvirt libguestfs-tools required to run installed on host.
+# Variables
+
+# vm location
+ruta=/home/gbenselu/vdo/virtualmachines
+#vm name convention, IP and MAC
+vmMANE=""
+vmIP=""
+vmMAC=""
+# napps number of vm_apps to create # laboratorio defines ansible lab name
+laboratorio=""
+napps=""
+
+# variables input
 
 echo "ingresar cantidad de vms"
 read napps
 echo "nombre del inventario"
 read laboratorio
 
-
-
-# creacion de variables
-
-ruta=/home/gbenselu/vdo/virtualmachines
-
+# clones vm, configures hostname and starts
 for i in $(seq 1 $napps)
 do
 
@@ -24,10 +32,11 @@ do
   virsh start $vmNAME
   
 done
+# run a scan to get arp table completed with new vms, and take a nap to avoid errors
 nmap -sP 192.168.122.1/24
 sleep 60
 
-# creación de inventario ansible y archivo hosts
+# ansible hosts creation and hosts file creation
 
 echo [apps] >> inventario_$laboratorio
 echo "#hostfile">> /etc/hosts
