@@ -1,0 +1,46 @@
+[1388.4] Planning how to build this image
+[1388.4] Uncompressing
+[1394.3] Opening the new disk
+[1398.8] Setting a random seed
+[1398.9] Setting passwords
+virt-builder: Setting random password of root to s1mBaEL7SJ19AGPW
+[1399.9] Finishing off
+                   Output file: centos-7.7.img
+                   Output size: 6.0G
+                 Output format: raw
+            Total usable space: 5.4G
+                    Free space: 4.1G (76%)
+[   5.2] Downloading: http://libguestfs.org/download/builder/centos-8.0.xz
+######################################################################### 100.0%######################################################################     96.8%
+[ 882.6] Planning how to build this image
+[ 882.6] Uncompressing
+[ 889.9] Opening the new disk
+[ 893.7] Setting a random seed
+[ 893.7] Setting passwords
+virt-builder: Setting random password of root to ycJLmd6uvVqESZsg
+[ 894.7] Finishing off
+                   Output file: centos-8.0.img
+                   Output size: 6.0G
+                 Output format: raw
+            Total usable space: 5.3G
+                    Free space: 4.1G (76%)
+[gbenselu@gbenselu ranchero]$ 
+
+
+
+[gbenselu@gbenselu ranchero]$ virt-builder fedora-31
+[   4.4] Downloading: http://libguestfs.org/download/builder/fedora-31.xz
+############################################################################################################################################################################################################ 100.0%############################################################################################################################################################################################################ 100.0%
+[1501.1] Planning how to build this image
+[1501.1] Uncompressing
+[1507.7] Opening the new disk
+[1515.4] Setting a random seed
+[1515.5] Setting passwords
+virt-builder: Setting random password of root to 2Xpzx1sp08Xs2CbY
+[1516.4] Finishing off
+                   Output file: fedora-31.img
+                   Output size: 6.0G
+                 Output format: raw
+            Total usable space: 5.4G
+                    Free space: 4.1G (76%)
+
