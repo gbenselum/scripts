@@ -23,6 +23,6 @@ sudo apt update
 
 
 
-sudo apt install vlc ansible arc-theme gnome-tweak-tool steam code lutris docker-ce docker-ce-cli containerd.i -y
+sudo apt install git vlc ansible arc-theme gnome-tweak-tool steam code lutris docker-ce docker-ce-cli containerd.i -y
 
 
