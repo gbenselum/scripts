@@ -23,6 +23,6 @@ sudo apt update
 
 
 
-sudo apt install virtualbox vim tmux gnome-shell-extensions ubuntustudio-wallpapers git vlc ansible arc-theme gnome-tweak-tool steam code lutris docker-ce docker-ce-cli containerd.io -y
+sudo apt install vagrant virtualbox vim tmux gnome-shell-extensions ubuntustudio-wallpapers git vlc ansible arc-theme gnome-tweak-tool steam code lutris docker-ce docker-ce-cli containerd.io -y
 
 
