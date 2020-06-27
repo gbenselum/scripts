@@ -18,16 +18,10 @@ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 
 
-# repo section
+# add multiverse & universe repos
 sudo add-apt-repository multiverse
 sudo add-apt-repository universe
 sudo apt update
-
-
-# ubuntu
-sudo apt install  gnome-shell-extensions ubuntustudio-wallpapers  vlc ansible   
-
-# sudo apt install  vim tmux  git vlc  gnome-tweak-tool steam code lutris  -y
 
 # gnome utils
 sudo apt install gnome-shell-extensions arc-theme gnome-tweak-tool -y
@@ -37,8 +31,12 @@ sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt install steam  lutris vlc -y
 
 # Vms
-sudo apt install vagrant virtualbox -y
+sudo apt install vagrant gnome-boxes virtualbox -y
 
 # DEV ansible, Python and more
 sudo apt install python3-pip git code tmux teams -y 
 sudo pip3 install ansible-lint
+
+# collab
+sudo apt install slack teams -y 
+
