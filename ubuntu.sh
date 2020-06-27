@@ -10,16 +10,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo add-apt-repository   "deb [arch=amd64] https://download.docker.com/linux/ubuntu    $(lsb_release -cs)    stable"
 sudo apt install docker-ce docker-ce-cli containerd.io -y
 
-#Microsfot stuff
+#Microsfot repo
 #vscode
 sudo apt update
 sudo apt install software-properties-common apt-transport-https wget -y
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 
-#teams
-wget https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.5153_amd64.deb
-sudo apt install ./teams_1.3.00.5153_amd64.deb
 
 # repo section
 sudo add-apt-repository multiverse
@@ -43,5 +40,5 @@ sudo apt install steam  lutris vlc -y
 sudo apt install vagrant virtualbox -y
 
 # DEV ansible, Python and more
-sudo apt install python3-pip git code tmux -y
+sudo apt install python3-pip git code tmux teams -y 
 sudo pip3 install ansible-lint
