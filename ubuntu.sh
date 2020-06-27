@@ -22,7 +22,9 @@ sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 
 
-
+# ubuntu
 sudo apt install vagrant virtualbox vim tmux gnome-shell-extensions ubuntustudio-wallpapers git vlc ansible arc-theme gnome-tweak-tool steam code lutris docker-ce docker-ce-cli containerd.io -y
 
+# pop
+# sudo apt install vagrant virtualbox vim tmux gnome-shell-extensions git vlc ansible gnome-tweak-tool steam code lutris docker-ce docker-ce-cli containerd.io -y
 
